@@ -1,0 +1,164 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: #4D3636;
+    font-family: 'Roboto-Bold', sans-serif;
+}
+
+/* Styling for photos */
+
+#hiking-collies {
+	width:100%;
+	height:auto;
+}
+
+.adventure-title{
+	font-size:4vw;
+}
+
+.cat-image {
+	width:60%;
+	height:auto;
+}
+
+.product-image {
+	width:40%;
+	height:auto;
+}
+
+/* Styling for containers */
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-container{
+	display:flex;
+	text-align: center;
+}
+
+.box-left{
+	flex:0 0 50%;
+}
+
+.box-right{
+	flex:0 0 50%;
+}
+
+
+.product-title{
+	font-size:2vw;
+	color:#4D3636;
+	display:inline;
+	font-family: 'Roboto-Bold,' sans-serif;
+}
+
+
+.floating-box {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid #ffffff; 
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+/* A button for navigation to different pages */
+
+.myButton {
+	background-color:#af4289;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #979797;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Roboto;
+	font-size:2vw;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #767676;
+}
+
+/* A button to view products */
+
+.productButton {
+	background-color:#4F674E;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #979797;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Roboto;
+	font-size:1.5vw;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #767676;
+}
+
+/* Styling for shopping cart page */
+
+#cart-title {
+	width:100%;
+	position:relative;
+	color: #4D3636;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size:1.5vw;
+}
+
+#item-title {
+	position:absolute;
+}
+
+#quantity-title {
+	position:absolute;
+	left:50%;
+
+}
+
+#price-title {
+	position:absolute;
+	left:75%;
+}
+
+
+#harness-color {
+	margin-top:5%;
+}
+
+#harness-quantity {
+	margin-top:-2%;
+	position:absolute;
+	left:50%;
+}
+
+#harness-price {
+	margin-top:-2%;
+	position:absolute;
+	left:75%;
+}
+
+.removeit {
+	margin-top:-2%;
+	position:relative;
+	float:right;
+}
+
+#cart-counter {
+	position:relative;
+	float:right;
+}
+
